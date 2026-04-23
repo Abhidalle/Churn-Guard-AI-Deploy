@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ChurnGuard AI | System Gateway</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            background-color: #0d1117;
+            color: #c9d1d9;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            text-align: center;
+        }
+        .container {
+            max-width: 600px;
+            padding: 40px;
+            background: #161b22;
+            border-radius: 12px;
+            border: 1px solid #30363d;
+            box-shadow: 0 8px 24px rgba(0,0,0,0.5);
+        }
+        h1 {
+            color: #ffffff;
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+        }
+        p {
+            font-size: 1.1rem;
+            line-height: 1.6;
+            color: #8b949e;
+            margin-bottom: 30px;
+        }
+        .status-box {
+            display: inline-block;
+            background: #1f6feb;
+            color: white;
+            padding: 5px 12px;
+            border-radius: 20px;
+            font-size: 0.85rem;
+            font-weight: bold;
+            margin-bottom: 20px;
+            letter-spacing: 1px;
+        }
+        .btn {
+            display: inline-block;
+            padding: 15px 30px;
+            font-size: 1.1rem;
+            font-weight: bold;
+            color: #ffffff;
+            background-color: #238636;
+            border: 1px solid rgba(240, 246, 252, 0.1);
+            border-radius: 6px;
+            text-decoration: none;
+            transition: 0.2s ease;
+            cursor: pointer;
+        }
+        .btn:hover {
+            background-color: #2ea043;
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(46, 160, 67, 0.4);
+        }
+        .note {
+            margin-top: 25px;
+            font-size: 0.85rem;
+            color: #484f58;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="status-box">SYSTEM DEPLOYED</div>
+        <h1>ChurnGuard AI</h1>
+        <p>The predictive retention engine is currently hosted on a dedicated Python compute cluster(STREAMLIT). Click below to initialize the secure Streamlit connection.</p>
+        
+        <a href="https://churn-guard-ai-horizon.streamlit.app/" target="_blank" class="btn">Launch Application</a>
+        
+        <div class="note">Note: The compute cluster may take 5-10 seconds to wake up from standby.</div>
+    </div>
+
+</body>
+</html>
