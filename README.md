@@ -1,4 +1,4 @@
-#ChurnGuard Ai
+# ChurnGuard Ai
 ## I built this project to learn how to train a machine learning model in a Jupyter Notebook and actually deploy it to a real web interface so people can use it.
 
 ### What ChurnGuard AI actually does
